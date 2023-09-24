@@ -41,19 +41,19 @@
 
         raise_layer {
             bindings = <
-&kp TAB     &kp DOT  &kp QUESTION  &kp EXCLAMATION  &trans  &trans       &kp RBRC     &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BACKSLASH  &kp ASTERISK  &kp BSPC
-&kp LSHIFT  &trans   &trans        &trans           &trans  &trans       &kp LBRC     &kp LPAR               &kp LBKT   &kp FSLH       &kp PLUS      &kp MINUS
-&kp LCTRL   &trans   &trans        &trans           &trans  &trans       &kp AT_SIGN  &kp AMPERSAND          &kp POUND  &trans         &kp PERCENT   &kp EQUAL
-                                   &kp LGUI         &trans  &kp SPACE    &kp RET      &trans                 &kp RALT
+&kp TAB     &kp DOT  &kp QUESTION  &trans    &kp EXCLAMATION  &kp CARET    &kp RBRC     &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BACKSLASH  &kp ASTERISK  &kp BSPC
+&kp LSHIFT  &trans   &trans        &trans    &trans           &trans       &kp LBRC     &kp LPAR               &kp LBKT   &kp FSLH       &kp PLUS      &kp MINUS
+&kp LCTRL   &trans   &trans        &trans    &trans           &trans       &kp AT_SIGN  &kp AMPERSAND          &kp POUND  &kp PIPE       &kp PERCENT   &kp EQUAL
+                                   &kp LGUI  &trans           &kp SPACE    &kp RET      &trans                 &kp RALT
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp PRINTSCREEN  &kp K_MUTE        &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &trans  &trans
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans           &kp K_PLAY_PAUSE  &kp C_AC_BACK      &kp K_FORWARD    &trans  &trans
+&trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans           &trans            &trans             &trans           &trans  &trans
+                          &trans  &trans  &trans     &trans           &trans            &trans
             >;
         };
     };
