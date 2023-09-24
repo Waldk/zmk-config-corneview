@@ -33,27 +33,27 @@
         lower_layer {
             bindings = <
 &kp TAB         &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &trans   &trans  &trans    &kp UP    &kp ESC    &kp BSPC
-&kp LEFT_SHIFT  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0          &trans   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans   &trans  &trans    &trans    &trans     &trans
+&kp LEFT_SHIFT  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0          &trans   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans   &trans  &trans    &trans    &trans     &kp INSERT
                                             &kp LGUI      &trans        &kp SPACE       &kp RET  &trans  &kp LALT
             >;
         };
 
         raise_layer {
             bindings = <
-&kp TAB     &kp DOT  &kp QUESTION  &trans    &kp EXCLAMATION  &kp CARET    &kp RBRC     &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BACKSLASH  &kp ASTERISK  &kp BSPC
-&kp LSHIFT  &trans   &trans        &trans    &trans           &trans       &kp LBRC     &kp LPAR               &kp LBKT   &kp FSLH       &kp PLUS      &kp MINUS
-&kp LCTRL   &trans   &trans        &trans    &trans           &trans       &kp AT_SIGN  &kp AMPERSAND          &kp POUND  &kp PIPE       &kp PERCENT   &kp EQUAL
-                                   &kp LGUI  &trans           &kp SPACE    &kp RET      &trans                 &kp RGUI
+&kp TAB     &kp DOT  &kp QUESTION  &trans    &kp EXCLAMATION  &kp CARET    &kp RBRC     &kp RIGHT_PARENTHESIS  &kp RBKT           &kp BACKSLASH  &kp ASTERISK  &kp BSPC
+&kp LSHIFT  &trans   &trans        &trans    &trans           &trans       &kp LBRC     &kp LPAR               &kp LBKT           &kp FSLH       &kp PLUS      &kp MINUS
+&kp LCTRL   &trans   &trans        &trans    &trans           &trans       &kp AT_SIGN  &kp AMPERSAND          &kp POUND          &kp PIPE       &kp PERCENT   &kp EQUAL
+                                   &kp LGUI  &trans           &kp SPACE    &kp RET      &trans                 &kp K_APPLICATION
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3    &kp F4  &kp F5       &kp PRINTSCREEN  &kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans  &trans
-&trans  &kp F6   &kp F7   &kp F8    &kp F9  &kp F10      &trans           &kp K_PLAY_PAUSE  &kp C_AC_BACK      &kp C_AC_FORWARD  &trans  &trans
-&trans  &kp F11  &kp F12  &trans    &trans  &trans       &trans           &trans            &trans             &trans            &trans  &trans
-                          &kp LGUI  &trans  &kp SPACE    &kp ENTER        &trans            &kp LALT
+&trans  &kp F1   &kp F2   &kp F3    &kp F4  &kp F5       &kp PRINTSCREEN  &kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp C_BRI_INC  &kp C_BRI_DEC
+&trans  &kp F6   &kp F7   &kp F8    &kp F9  &kp F10      &trans           &kp K_PLAY_PAUSE  &kp C_REWIND       &kp C_FAST_FORWARD  &kp C_AC_BACK  &kp C_AC_FORWARD
+&trans  &kp F11  &kp F12  &trans    &trans  &trans       &trans           &kp HOME          &kp PAGE_UP        &kp PAGE_DOWN       &trans         &trans
+                          &kp LGUI  &trans  &kp SPACE    &kp ENTER        &trans            &kp K_APPLICATION
             >;
         };
     };
