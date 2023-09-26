@@ -23,28 +23,28 @@
 
         default_layer {
             bindings = <
-&kp TAB    &kp A  &kp Z  &kp E     &kp R  &kp T      &kp Y      &kp U      &kp I       &kp O          &kp P      &kp BSPC
-&kp LSHFT  &kp Q  &kp S  &kp D     &kp F  &kp G      &kp H      &kp J      &kp K       &kp L          &kp M      &kp SQT
-&kp LCTRL  &kp W  &kp X  &kp C     &kp V  &kp B      &kp N      &kp COMMA  &kp PERIOD  &kp SEMICOLON  &kp MINUS  &kp GRAVE
-                         &kp LGUI  &mo 2  &kp RET    &kp SPACE  &mo 1      &kp LALT
+&kp TAB    &kp A  &kp Z  &kp E     &kp R  &kp T                                              &kp Y      &kp U      &kp I       &kp O          &kp P      &kp BSPC
+&kp LSHFT  &kp Q  &kp S  &kp D     &kp F  &kp G                                              &kp H      &kp J      &kp K       &kp L          &kp M      &kp SQT
+&kp LCTRL  &kp W  &kp X  &kp C     &kp V  &kp B                                              &kp N      &kp COMMA  &kp PERIOD  &kp SEMICOLON  &kp MINUS  &kp GRAVE
+                         &kp LGUI  &mo 2  &kp RET                                            &kp SPACE  &mo 1      &kp LALT
             >;
         };
 
         lower_layer {
             bindings = <
-&kp TAB     &kp DOT  &kp QUESTION  &trans    &kp EXCLAMATION  &kp CARET    &kp RBRC      &trans   &trans  &trans    &kp UP    &kp ESC    &kp BSPC
-&kp LSHIFT  &trans   &trans        &trans    &trans           &trans       &kp LBRC      &trans   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
-&kp LCTRL   &trans   &trans        &trans    &trans           &trans       &kp AT_SIGN   &trans   &trans  &trans    &trans    &trans     &kp INSERT
-                                   &kp LGUI  &trans           &kp SPACE    &kp RET       &kp RET  &trans  &kp LALT
+&kp TAB     &kp DOT  &kp QUESTION  &trans    &kp EXCLAMATION  &kp CARET    &kp RBRC         &trans   &trans  &trans    &kp UP    &kp ESC    &kp BSPC
+&kp LSHIFT  &trans   &trans        &trans    &trans           &trans       &kp LBRC         &trans   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
+&kp LCTRL   &trans   &trans        &trans    &trans           &trans       &kp AT_SIGN      &trans   &trans  &trans    &trans    &trans     &kp INSERT
+                                   &kp LGUI  &trans           &kp SPACE    &kp RET          &kp RET  &trans  &kp LALT
             >;
         };
 
         raise_layer {
             bindings = <
-&kp TAB         &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp RIGHT_PARENTHESIS  &kp RBKT           &kp BACKSLASH  &kp ASTERISK  &kp BSPC
-&kp LEFT_SHIFT  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0          &kp LPAR               &kp LBKT           &kp FSLH       &kp PLUS      &kp MINUS
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp AMPERSAND          &kp POUND          &kp PIPE       &kp PERCENT   &kp EQUAL
-                                            &kp LGUI      &trans        &kp SPACE       &trans                 &kp K_APPLICATION
+&kp TAB         &kp N1        &kp N2        &kp N3        &kp N4        &kp N5              &kp RBRC     &kp RIGHT_PARENTHESIS  &kp RBKT           &kp BACKSLASH  &kp ASTERISK  &kp BSPC
+&kp LEFT_SHIFT  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0              &kp LBRC     &kp LPAR               &kp LBKT           &kp FSLH       &kp PLUS      &kp MINUS
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4        &kp AT_SIGN  &kp AMPERSAND          &kp POUND          &kp PIPE       &kp PERCENT   &kp EQUAL
+                                            &kp LGUI      &trans        &kp SPACE           &kp RET      &trans                 &kp K_APPLICATION
             >;
         };
 
