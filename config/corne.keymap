@@ -43,7 +43,7 @@
             bindings = <
 &kp TAB         &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp RBRC     &kp RIGHT_PARENTHESIS  &kp RBKT           &kp BACKSLASH  &kp ASTERISK  &kp BSPC
 &kp LEFT_SHIFT  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0          &kp LBRC     &kp LPAR               &kp LBKT           &kp FSLH       &kp PLUS      &kp MINUS
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp AT_SIGN  &kp AMPERSAND          &kp POUND          &kp PIPE       &kp PERCENT   &kp EQUAL
+&trans   &trans   &trans    &trans   &trans   &trans     &trans                         &kp AT_SIGN  &kp AMPERSAND          &kp POUND          &kp PIPE       &kp PERCENT   &kp EQUAL
                                             &kp LGUI      &trans        &kp SPACE       &kp RET      &trans                 &kp K_APPLICATION
             >;
         };
@@ -52,7 +52,7 @@
             bindings = <
 &kp F1   &kp F2   &kp F3    &kp F4   &kp F5   &kp F6     &kp PRINTSCREEN  &kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp C_BRI_INC  &kp C_BRI_DEC
 &kp F7   &kp F8   &kp F9    &kp F10  &kp F11  &kp F12    &trans           &kp K_PLAY_PAUSE  &kp C_REWIND       &kp C_FAST_FORWARD  &kp C_AC_BACK  &kp C_AC_FORWARD
-&trans   &trans   &trans    &trans   &trans   &trans     &trans           &kp HOME          &kp PAGE_UP        &kp PAGE_DOWN       &trans         &trans
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4           &kp HOME          &kp PAGE_UP        &kp PAGE_DOWN       &trans         &trans
                           &kp LGUI  &trans  &kp SPACE    &kp ENTER        &trans            &kp K_APPLICATION
             >;
         };
