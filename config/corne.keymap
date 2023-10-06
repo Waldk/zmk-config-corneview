@@ -32,8 +32,8 @@
 
         lower_layer {
             bindings = <
-&kp TAB     &kp DOT  &kp QUESTION  &trans    &kp EXCLAMATION  &kp CARET    &trans   &trans  &trans    &kp UP    &kp ESC    &kp BSPC
-&kp LSHIFT  &trans   &trans        &trans    &trans           &trans       &trans   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
+&kp TAB     &kp COMMA  &kp PERIOD  &kp SEMICOLON  &kp MINUS  &kp GRAVE     &trans   &trans  &trans    &kp UP    &kp ESC    &kp BSPC
+&kp LSHIFT  &kp DOT  &kp QUESTION  &trans    &kp EXCLAMATION  &kp CARET    &trans   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
 &kp LCTRL   &trans   &trans        &trans    &trans           &trans       &trans   &trans  &trans    &trans    &trans     &kp INSERT
                                    &kp LGUI  &trans           &kp SPACE    &kp RET  &trans  &kp LALT
             >;
